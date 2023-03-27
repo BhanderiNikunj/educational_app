@@ -1,3 +1,4 @@
+import 'package:educational_app/Screen/FlashScreen/View/FlashScreen.dart';
 import 'package:educational_app/Screen/Home/Provider/HomeProvider.dart';
 import 'package:educational_app/Screen/Home/View/HomeLinkScreen.dart';
 import 'package:educational_app/Screen/Home/View/HomeScreen.dart';
@@ -15,8 +16,9 @@ void main() {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         routes: {
-          '/': (context) => HomeScreen(),
-          'home': (context) => HomeLinkScreen(),
+          '/': (context) => FlashScreen(),
+          'home': (context) => HomeScreen(),
+          'home-link': (context) => HomeLinkScreen(),
         },
       ),
     ),

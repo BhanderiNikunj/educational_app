@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: InkWell(
         onTap: () {
           homeProviderfalse!.LoadUrl(index);
-          Navigator.pushNamed(context, 'home');
+          Navigator.pushNamed(context, 'home-link');
         },
         child: Container(
           width: double.infinity,
